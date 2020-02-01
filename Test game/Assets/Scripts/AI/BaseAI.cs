@@ -1,16 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BaseAI : MonoBehaviour
 {
-    [SerializeField] protected AIState state;
+    private AIState _state;
+    public AIState state {
+        get {
+            return _state;
+        }
+        protected set {
+            eventStateChange.Invoke(state, value);
+            _state = value;
+        }
+    }
+    [SerializeField] private AIState defaultState;
+    public StateEvent eventStateChange; // void StateEnd(AIState oldState, AIState newState)
+    public UnityEvent eventDeath;
+    public bool destroyOnDeath = true;
 
     // Speed info
     [SerializeField] protected float maxSpeed = 3;
     [SerializeField] protected float accelerationChangeMultiplier = 2;
     protected float timeWithMultiplier;
-    protected Vector3 velocity;
+    public Vector3 velocity { get; private set; }
 
     // Stats
     [SerializeField] protected int health = 3;
@@ -104,6 +118,7 @@ public class BaseAI : MonoBehaviour
     {
         if (knockbackTimer >= 0f)
         {
+            knockbackTimer -= Time.deltaTime;
             Vector3 dir = velocity;
             dir.Normalize();
             dir *= knockbackReduction * Time.deltaTime;
@@ -124,7 +139,10 @@ public class BaseAI : MonoBehaviour
 
     protected virtual void Death()
     {
-        Destroy(gameObject);
+        eventDeath.Invoke();
+
+        if (destroyOnDeath)
+            Destroy(gameObject);
     }
 
     #endregion
@@ -217,6 +235,7 @@ public class BaseAI : MonoBehaviour
     protected virtual void Start()
     {
         manager = FindObjectOfType<AIManager>();
+        state = defaultState;
     }
 
     protected virtual void Update()
@@ -323,4 +342,10 @@ public enum AIState
     Attacking,
     Charging,
     Hurt,
+}
+
+// Event used to signify a change in state
+[System.Serializable]
+public class StateEvent : UnityEvent<AIState, AIState>
+{
 }

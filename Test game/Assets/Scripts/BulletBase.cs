@@ -12,7 +12,9 @@ public class BulletBase : MonoBehaviour
     protected virtual void OnEnable()
     {
         if(direction != Vector3.zero)
-            transform.rotation = Quaternion.LookRotation(direction);
+            transform.localRotation = Quaternion.LookRotation(direction, -Vector3.up);
+
+        transform.Rotate(-Vector3.up, 90);
     }
 
     protected virtual void Update()

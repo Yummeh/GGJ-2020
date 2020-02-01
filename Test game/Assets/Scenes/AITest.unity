@@ -121,36 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &544170105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 544170106}
-  m_Layer: 0
-  m_Name: AvoidPoint (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &544170106
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544170105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4, y: 3.14, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &647798523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,7 +196,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 647798523}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1495446856
+--- !u!1 &1223090173
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,87 +204,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1495446857}
+  - component: {fileID: 1223090174}
   m_Layer: 0
-  m_Name: AvoidPoint (3)
+  m_Name: BulletObjectPool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1495446857
+--- !u!4 &1223090174
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1495446856}
+  m_GameObject: {fileID: 1223090173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5899999, y: 7.0200005, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1710998992
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1710998993}
-  m_Layer: 0
-  m_Name: AvoidPoint (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1710998993
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710998992}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.79, y: 5.7400002, z: 0}
+  m_LocalPosition: {x: -6.3699727, y: 0.39214307, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2031526036
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2031526037}
-  m_Layer: 0
-  m_Name: AvoidPoint (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2031526037
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2031526036}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9100001, y: 7.88, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &31641204575978678
 PrefabInstance:
@@ -326,12 +236,12 @@ PrefabInstance:
     - target: {fileID: 5627597616294413643, guid: 3cb6cd2b42f1f8f40ac268d99517197a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.04
+      value: -5.67
       objectReference: {fileID: 0}
     - target: {fileID: 5627597616294413643, guid: 3cb6cd2b42f1f8f40ac268d99517197a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.32
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5627597616294413643, guid: 3cb6cd2b42f1f8f40ac268d99517197a,
         type: 3}
@@ -551,22 +461,27 @@ PrefabInstance:
         type: 3}
       propertyPath: avoidPoints.Array.data[0].point
       value: 
-      objectReference: {fileID: 2031526037}
+      objectReference: {fileID: 0}
     - target: {fileID: 6383315306768214360, guid: e6ec5111291ba9b409c3945ee2b0ec65,
         type: 3}
       propertyPath: avoidPoints.Array.data[1].point
       value: 
-      objectReference: {fileID: 544170106}
+      objectReference: {fileID: 0}
     - target: {fileID: 6383315306768214360, guid: e6ec5111291ba9b409c3945ee2b0ec65,
         type: 3}
       propertyPath: avoidPoints.Array.data[2].point
       value: 
-      objectReference: {fileID: 1495446857}
+      objectReference: {fileID: 0}
     - target: {fileID: 6383315306768214360, guid: e6ec5111291ba9b409c3945ee2b0ec65,
         type: 3}
       propertyPath: avoidPoints.Array.data[3].point
       value: 
-      objectReference: {fileID: 1710998993}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383315306768214360, guid: e6ec5111291ba9b409c3945ee2b0ec65,
+        type: 3}
+      propertyPath: bulletParent
+      value: 
+      objectReference: {fileID: 1223090174}
     - target: {fileID: 6383315306768214361, guid: e6ec5111291ba9b409c3945ee2b0ec65,
         type: 3}
       propertyPath: m_Name

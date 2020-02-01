@@ -16,7 +16,7 @@ public class BaseRangeAI : BaseAI
         {
             for (int i = 0; i < bulletInstances.Length; i++)
             {
-                bulletInstances[i] = Instantiate(bulletPrefab, transform).GetComponent<BulletBase>();
+                bulletInstances[i] = Instantiate(bulletPrefab, manager.bulletParent).GetComponent<BulletBase>();
                 bulletInstances[i].gameObject.SetActive(false);
             }
         }

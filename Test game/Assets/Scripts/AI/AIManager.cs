@@ -10,6 +10,8 @@ public class AIManager : MonoBehaviour
 
     public PlayerMovement player;
 
+    public Transform bulletParent;
+
     // Input from the user for point the fish should avoid, these can be moving or static
     [SerializeField] public List<AvoidPoint> avoidPoints = new List<AvoidPoint>();
 

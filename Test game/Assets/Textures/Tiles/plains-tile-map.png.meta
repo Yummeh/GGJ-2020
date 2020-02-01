@@ -29,6 +29,672 @@ TextureImporter:
   - first:
       213: 8675801242965637358
     second: plains-tile-map_1
+  - first:
+      213: -4940795226447312329
+    second: plains-tile-map_7
+  - first:
+      213: 7207546666195173077
+    second: plains-tile-map_8
+  - first:
+      213: 6777487135287864024
+    second: plains-tile-map_9
+  - first:
+      213: -3104576516931790546
+    second: plains-tile-map_10
+  - first:
+      213: 8711756331254274989
+    second: plains-tile-map_11
+  - first:
+      213: -2501976760721440202
+    second: plains-tile-map_2
+  - first:
+      213: -9187553832592622116
+    second: plains-tile-map_3
+  - first:
+      213: -1167577777696716866
+    second: plains-tile-map_4
+  - first:
+      213: -8339195743155257173
+    second: plains-tile-map_5
+  - first:
+      213: -1330530406400781782
+    second: plains-tile-map_6
+  - first:
+      213: -2755094041986509432
+    second: plains-tile-map_7
+  - first:
+      213: 2817693476985709628
+    second: plains-tile-map_8
+  - first:
+      213: 4851547328972926475
+    second: plains-tile-map_12
+  - first:
+      213: 7765212182129885520
+    second: plains-tile-map_13
+  - first:
+      213: -4670919547246518665
+    second: plains-tile-map_14
+  - first:
+      213: 3678159473634013542
+    second: plains-tile-map_15
+  - first:
+      213: 8766759847255854577
+    second: plains-tile-map_16
+  - first:
+      213: -1504989811201739726
+    second: plains-tile-map_17
+  - first:
+      213: 1507792762349176676
+    second: plains-tile-map_18
+  - first:
+      213: -3998783182229403230
+    second: plains-tile-map_19
+  - first:
+      213: 2459895401954870901
+    second: plains-tile-map_20
+  - first:
+      213: 1368432300221591562
+    second: plains-tile-map_21
+  - first:
+      213: 3084677741735653814
+    second: plains-tile-map_22
+  - first:
+      213: 7838969389484064953
+    second: plains-tile-map_23
+  - first:
+      213: 2650265916000018389
+    second: plains-tile-map_24
+  - first:
+      213: 7467427028357496566
+    second: plains-tile-map_25
+  - first:
+      213: -2861977033662913719
+    second: plains-tile-map_26
+  - first:
+      213: 901525415917065617
+    second: plains-tile-map_27
+  - first:
+      213: -4570172881926392008
+    second: plains-tile-map_28
+  - first:
+      213: 7701180193694843670
+    second: plains-tile-map_29
+  - first:
+      213: 163450817850318854
+    second: plains-tile-map_30
+  - first:
+      213: -761031591196123815
+    second: plains-tile-map_31
+  - first:
+      213: 5820710595246135264
+    second: plains-tile-map_32
+  - first:
+      213: -274976852321683661
+    second: plains-tile-map_33
+  - first:
+      213: 576119751173012320
+    second: plains-tile-map_34
+  - first:
+      213: 448044762027607585
+    second: plains-tile-map_35
+  - first:
+      213: 7401465975111648626
+    second: plains-tile-map_36
+  - first:
+      213: -190867334709050763
+    second: plains-tile-map_37
+  - first:
+      213: -2601875680966272238
+    second: plains-tile-map_38
+  - first:
+      213: 800891092071609758
+    second: plains-tile-map_39
+  - first:
+      213: 7184648080578698348
+    second: plains-tile-map_40
+  - first:
+      213: -2133734532496817426
+    second: plains-tile-map_41
+  - first:
+      213: 1372303746578135547
+    second: plains-tile-map_42
+  - first:
+      213: 3080277671992352025
+    second: plains-tile-map_43
+  - first:
+      213: 6936530049981538935
+    second: plains-tile-map_44
+  - first:
+      213: -421094784940304383
+    second: plains-tile-map_45
+  - first:
+      213: -3888671528802512010
+    second: plains-tile-map_46
+  - first:
+      213: 1611907088255030428
+    second: plains-tile-map_47
+  - first:
+      213: -2404775731259203693
+    second: plains-tile-map_48
+  - first:
+      213: 3207283438563711330
+    second: plains-tile-map_49
+  - first:
+      213: 3343869889547867895
+    second: plains-tile-map_50
+  - first:
+      213: -7485681626592180907
+    second: plains-tile-map_51
+  - first:
+      213: 1143303113172490713
+    second: plains-tile-map_52
+  - first:
+      213: -6464858902744910994
+    second: plains-tile-map_53
+  - first:
+      213: -5758826715095814042
+    second: plains-tile-map_54
+  - first:
+      213: 2402153721450503912
+    second: plains-tile-map_55
+  - first:
+      213: 8704217360993356751
+    second: plains-tile-map_56
+  - first:
+      213: 3425645489684525452
+    second: plains-tile-map_57
+  - first:
+      213: 3470889396181417784
+    second: plains-tile-map_58
+  - first:
+      213: -7652892177523087115
+    second: plains-tile-map_59
+  - first:
+      213: -2136951798722818423
+    second: plains-tile-map_60
+  - first:
+      213: -8794581273023819650
+    second: plains-tile-map_61
+  - first:
+      213: -3378245123854170817
+    second: plains-tile-map_62
+  - first:
+      213: -7212459080452800681
+    second: plains-tile-map_63
+  - first:
+      213: 8108732228138002926
+    second: plains-tile-map_64
+  - first:
+      213: 6626442227499279879
+    second: plains-tile-map_65
+  - first:
+      213: -2019480455713681321
+    second: plains-tile-map_66
+  - first:
+      213: -215829347449050694
+    second: plains-tile-map_67
+  - first:
+      213: 551375608334565647
+    second: plains-tile-map_68
+  - first:
+      213: -7482016584517415149
+    second: plains-tile-map_69
+  - first:
+      213: -5490580818177197889
+    second: plains-tile-map_70
+  - first:
+      213: -8755840849494530976
+    second: plains-tile-map_71
+  - first:
+      213: -4895721128346861865
+    second: plains-tile-map_72
+  - first:
+      213: 8235735716339140676
+    second: plains-tile-map_73
+  - first:
+      213: -1577918170803660189
+    second: plains-tile-map_74
+  - first:
+      213: -2309599609756291282
+    second: plains-tile-map_75
+  - first:
+      213: 9000912746505021404
+    second: plains-tile-map_76
+  - first:
+      213: -8377213828503542448
+    second: plains-tile-map_77
+  - first:
+      213: -5153262376752812804
+    second: plains-tile-map_78
+  - first:
+      213: -359442838421234968
+    second: plains-tile-map_79
+  - first:
+      213: 4676500099743557838
+    second: plains-tile-map_80
+  - first:
+      213: 5044631075987866995
+    second: plains-tile-map_81
+  - first:
+      213: -7906023150514282742
+    second: plains-tile-map_82
+  - first:
+      213: 2588909871113422723
+    second: plains-tile-map_83
+  - first:
+      213: -1481102567464393079
+    second: plains-tile-map_84
+  - first:
+      213: 6769775854324405929
+    second: plains-tile-map_85
+  - first:
+      213: 3023500660522362289
+    second: plains-tile-map_86
+  - first:
+      213: 6894336406780728397
+    second: plains-tile-map_87
+  - first:
+      213: 7263964292805830845
+    second: plains-tile-map_88
+  - first:
+      213: -2372166258321472445
+    second: plains-tile-map_89
+  - first:
+      213: 3634552200146110922
+    second: plains-tile-map_90
+  - first:
+      213: 1598775430422973080
+    second: plains-tile-map_91
+  - first:
+      213: 1840739917028619812
+    second: plains-tile-map_92
+  - first:
+      213: -4711562652953248714
+    second: plains-tile-map_93
+  - first:
+      213: 2680958303015816844
+    second: plains-tile-map_94
+  - first:
+      213: 740284146053399310
+    second: plains-tile-map_95
+  - first:
+      213: 3644417137240913044
+    second: plains-tile-map_96
+  - first:
+      213: -5076148531104392243
+    second: plains-tile-map_97
+  - first:
+      213: -1512981020492179510
+    second: plains-tile-map_98
+  - first:
+      213: -3662236211628727347
+    second: plains-tile-map_99
+  - first:
+      213: -7344167660056028841
+    second: plains-tile-map_100
+  - first:
+      213: -7607974197285326815
+    second: plains-tile-map_101
+  - first:
+      213: 229169803292086419
+    second: plains-tile-map_102
+  - first:
+      213: 7047270146373547881
+    second: plains-tile-map_103
+  - first:
+      213: -1005705048373697597
+    second: plains-tile-map_104
+  - first:
+      213: 9178571190781013599
+    second: plains-tile-map_105
+  - first:
+      213: -8625168699619025333
+    second: plains-tile-map_106
+  - first:
+      213: -7392172072940617040
+    second: plains-tile-map_107
+  - first:
+      213: -2260901941573277470
+    second: plains-tile-map_108
+  - first:
+      213: 6671849841724176787
+    second: plains-tile-map_109
+  - first:
+      213: -97207937125580067
+    second: plains-tile-map_110
+  - first:
+      213: -2903668536555397047
+    second: plains-tile-map_111
+  - first:
+      213: -5237075028838719919
+    second: plains-tile-map_112
+  - first:
+      213: -6599753705846198837
+    second: plains-tile-map_113
+  - first:
+      213: -2000314079230261355
+    second: plains-tile-map_114
+  - first:
+      213: -190497687299870861
+    second: plains-tile-map_115
+  - first:
+      213: -4531101283147823320
+    second: plains-tile-map_9
+  - first:
+      213: 8395463670106814967
+    second: plains-tile-map_10
+  - first:
+      213: 4692916025638758450
+    second: plains-tile-map_11
+  - first:
+      213: 8105078921104293915
+    second: plains-tile-map_12
+  - first:
+      213: 5095650199803205341
+    second: plains-tile-map_13
+  - first:
+      213: -3355629977551316642
+    second: plains-tile-map_14
+  - first:
+      213: -7837960644283504769
+    second: plains-tile-map_15
+  - first:
+      213: -8698065383932977252
+    second: plains-tile-map_16
+  - first:
+      213: -958591381870272608
+    second: plains-tile-map_17
+  - first:
+      213: 4461348029979627434
+    second: plains-tile-map_18
+  - first:
+      213: -4988089220361118674
+    second: plains-tile-map_19
+  - first:
+      213: 7050337541439963677
+    second: plains-tile-map_20
+  - first:
+      213: -7634691616026960972
+    second: plains-tile-map_21
+  - first:
+      213: 5342171124230723952
+    second: plains-tile-map_22
+  - first:
+      213: 4988090606235889164
+    second: plains-tile-map_23
+  - first:
+      213: 2348280896063626455
+    second: plains-tile-map_24
+  - first:
+      213: -5325636015625769445
+    second: plains-tile-map_25
+  - first:
+      213: -6888492361752995807
+    second: plains-tile-map_26
+  - first:
+      213: 5618232827854587415
+    second: plains-tile-map_27
+  - first:
+      213: -744272278404790270
+    second: plains-tile-map_28
+  - first:
+      213: -5368453014959289507
+    second: plains-tile-map_29
+  - first:
+      213: 4826690772772239287
+    second: plains-tile-map_30
+  - first:
+      213: -4011195465030540037
+    second: plains-tile-map_31
+  - first:
+      213: 2842595450262226645
+    second: plains-tile-map_32
+  - first:
+      213: 6673914081894267728
+    second: plains-tile-map_33
+  - first:
+      213: 8618880391285131081
+    second: plains-tile-map_34
+  - first:
+      213: -3173608333273068601
+    second: plains-tile-map_35
+  - first:
+      213: -5329804947918303824
+    second: plains-tile-map_36
+  - first:
+      213: 4671223474991834681
+    second: plains-tile-map_37
+  - first:
+      213: 6310283044855790726
+    second: plains-tile-map_38
+  - first:
+      213: -614451943404198048
+    second: plains-tile-map_39
+  - first:
+      213: -430070695207519264
+    second: plains-tile-map_40
+  - first:
+      213: 865918174821626267
+    second: plains-tile-map_41
+  - first:
+      213: 4149435256772745311
+    second: plains-tile-map_42
+  - first:
+      213: -7846843488386900652
+    second: plains-tile-map_43
+  - first:
+      213: 2372725094959281598
+    second: plains-tile-map_44
+  - first:
+      213: 2171460122153293782
+    second: plains-tile-map_45
+  - first:
+      213: 2767039635760902710
+    second: plains-tile-map_46
+  - first:
+      213: 7217745150630279376
+    second: plains-tile-map_47
+  - first:
+      213: 7317893274655777800
+    second: plains-tile-map_48
+  - first:
+      213: -8847101918685248491
+    second: plains-tile-map_49
+  - first:
+      213: 8624577725813220074
+    second: plains-tile-map_50
+  - first:
+      213: 8811758516612545220
+    second: plains-tile-map_51
+  - first:
+      213: -6016224822179758112
+    second: plains-tile-map_52
+  - first:
+      213: 7754741082510548350
+    second: plains-tile-map_53
+  - first:
+      213: 4909481691890481431
+    second: plains-tile-map_54
+  - first:
+      213: 3328468666855484328
+    second: plains-tile-map_55
+  - first:
+      213: -4011672649049805564
+    second: plains-tile-map_56
+  - first:
+      213: -6501699323212836781
+    second: plains-tile-map_57
+  - first:
+      213: 6072101358500476458
+    second: plains-tile-map_58
+  - first:
+      213: -5422841548623608081
+    second: plains-tile-map_59
+  - first:
+      213: -1550673980470192809
+    second: plains-tile-map_60
+  - first:
+      213: 8946648863086231362
+    second: plains-tile-map_61
+  - first:
+      213: -1874914650191798390
+    second: plains-tile-map_62
+  - first:
+      213: -2622517161651455619
+    second: plains-tile-map_63
+  - first:
+      213: -6319146353445103836
+    second: plains-tile-map_64
+  - first:
+      213: -9026719174058928175
+    second: plains-tile-map_65
+  - first:
+      213: 6060426864286831771
+    second: plains-tile-map_66
+  - first:
+      213: -1584999138550385911
+    second: plains-tile-map_67
+  - first:
+      213: -7431377855155519027
+    second: plains-tile-map_68
+  - first:
+      213: -2427310207194788556
+    second: plains-tile-map_69
+  - first:
+      213: -7414431117382751726
+    second: plains-tile-map_70
+  - first:
+      213: -7802082156929993830
+    second: plains-tile-map_71
+  - first:
+      213: -1345917223362678606
+    second: plains-tile-map_72
+  - first:
+      213: -7222166439140886034
+    second: plains-tile-map_73
+  - first:
+      213: 2995154393905901116
+    second: plains-tile-map_74
+  - first:
+      213: -8108294629651134562
+    second: plains-tile-map_75
+  - first:
+      213: -3327356815135129182
+    second: plains-tile-map_76
+  - first:
+      213: -412459241041575621
+    second: plains-tile-map_77
+  - first:
+      213: 1276035388288937000
+    second: plains-tile-map_78
+  - first:
+      213: -3040784255859971099
+    second: plains-tile-map_79
+  - first:
+      213: -2027823089474067026
+    second: plains-tile-map_80
+  - first:
+      213: 49733756202632805
+    second: plains-tile-map_81
+  - first:
+      213: -1327178785775178879
+    second: plains-tile-map_82
+  - first:
+      213: -3316605663556290322
+    second: plains-tile-map_83
+  - first:
+      213: -6341157021851748569
+    second: plains-tile-map_84
+  - first:
+      213: -2499596786209127460
+    second: plains-tile-map_85
+  - first:
+      213: -8336895833785405039
+    second: plains-tile-map_86
+  - first:
+      213: -8372657068294712810
+    second: plains-tile-map_87
+  - first:
+      213: 2148719618002903579
+    second: plains-tile-map_88
+  - first:
+      213: -8001573725186282627
+    second: plains-tile-map_89
+  - first:
+      213: 784166636710575287
+    second: plains-tile-map_90
+  - first:
+      213: -8583649320613989987
+    second: plains-tile-map_91
+  - first:
+      213: -2145846823849487545
+    second: plains-tile-map_92
+  - first:
+      213: 7197580134627031460
+    second: plains-tile-map_93
+  - first:
+      213: 8303291869216562867
+    second: plains-tile-map_94
+  - first:
+      213: -3641058162714407854
+    second: plains-tile-map_95
+  - first:
+      213: -3886270771886389911
+    second: plains-tile-map_96
+  - first:
+      213: 8600520692237073514
+    second: plains-tile-map_97
+  - first:
+      213: 8167041192968111593
+    second: plains-tile-map_98
+  - first:
+      213: -4759867787161101753
+    second: plains-tile-map_99
+  - first:
+      213: 2769183064631215857
+    second: plains-tile-map_100
+  - first:
+      213: -4268642431547227556
+    second: plains-tile-map_101
+  - first:
+      213: -7200796615869765308
+    second: plains-tile-map_102
+  - first:
+      213: -6499666836893538455
+    second: plains-tile-map_103
+  - first:
+      213: -3361231463166643268
+    second: plains-tile-map_104
+  - first:
+      213: -4688833193919789892
+    second: plains-tile-map_105
+  - first:
+      213: 2974656481355008634
+    second: plains-tile-map_106
+  - first:
+      213: 7504241587990635037
+    second: plains-tile-map_107
+  - first:
+      213: -1049341612689630084
+    second: plains-tile-map_108
+  - first:
+      213: -2360310574711481216
+    second: plains-tile-map_109
+  - first:
+      213: 4050691727122467791
+    second: plains-tile-map_110
+  - first:
+      213: 6354498214144050304
+    second: plains-tile-map_111
+  - first:
+      213: -6680918965987222079
+    second: plains-tile-map_112
+  - first:
+      213: 1420630179482299226
+    second: plains-tile-map_113
+  - first:
+      213: 8340238440947676472
+    second: plains-tile-map_114
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -117,11 +783,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 144
+        y: 304
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,18 +804,2391 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 144
+        y: 304
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1929b155fe63b4380800000000000000
-      internalID: -8986028229934738799
+      spriteID: ee8fbdc9343a66870800000000000000
+      internalID: 8675801242965637358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6328ae46461374dd0800000000000000
+      internalID: -2501976760721440202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddb98d87704f7080800000000000000
+      internalID: -9187553832592622116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb74fb0823eebcfe0800000000000000
+      internalID: -1167577777696716866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba008c097a9354c80800000000000000
+      internalID: -8339195743155257173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2210a315a1098de0800000000000000
+      internalID: -1330530406400781782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8855990e090f3c9d0800000000000000
+      internalID: -2755094041986509432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c342badd9457a1720800000000000000
+      internalID: 2817693476985709628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82748a8c36b4e11c0800000000000000
+      internalID: -4531101283147823320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9f9651abda28470800000000000000
+      internalID: 8395463670106814967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238afecd246902140800000000000000
+      internalID: 4692916025638758450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b108de016560b7070800000000000000
+      internalID: 8105078921104293915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd61beadbd267b640800000000000000
+      internalID: 5095650199803205341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59d66670586e61d0800000000000000
+      internalID: -3355629977551316642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f776df14258f93390800000000000000
+      internalID: -7837960644283504769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f9d8d1e934a4780800000000000000
+      internalID: -8698065383932977252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af1fde873662b2f0800000000000000
+      internalID: -958591381870272608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf03526564e9ed30800000000000000
+      internalID: 4461348029979627434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c9b68384fb6cab0800000000000000
+      internalID: -4988089220361118674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d124120c3a4d7d160800000000000000
+      internalID: 7050337541439963677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb5f01fc602c0690800000000000000
+      internalID: -7634691616026960972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0791f1d5554332a40800000000000000
+      internalID: 5342171124230723952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e27247af1493540800000000000000
+      internalID: 4988090606235889164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc55b28805c69020800000000000000
+      internalID: 2348280896063626455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e699d924a8716b0800000000000000
+      internalID: -5325636015625769445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12898bb91b82760a0800000000000000
+      internalID: -6888492361752995807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71606b18df8f7fd40800000000000000
+      internalID: 5618232827854587415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208038d5e40dba5f0800000000000000
+      internalID: -744272278404790270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b0af91d6c6f75b0800000000000000
+      internalID: -5368453014959289507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7beb75fa9dbf240800000000000000
+      internalID: 4826690772772239287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4623e0afe5558c0800000000000000
+      internalID: -4011195465030540037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d68505508de27720800000000000000
+      internalID: 2842595450262226645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bf8c06f718e9c50800000000000000
+      internalID: 6673914081894267728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94741241d0a6c9770800000000000000
+      internalID: 8618880391285131081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb0a0f090415f3d0800000000000000
+      internalID: -3173608333273068601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdc53d63aab806b0800000000000000
+      internalID: -5329804947918303824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936aa55500583d040800000000000000
+      internalID: 4671223474991834681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cbcc8fef0a29750800000000000000
+      internalID: 6310283044855790726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06728d586370977f0800000000000000
+      internalID: -614451943404198048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebb9d73bf4180af0800000000000000
+      internalID: -430070695207519264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b913ccefdfb540c00800000000000000
+      internalID: 865918174821626267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58db62a161c59930800000000000000
+      internalID: 4149435256772745311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d9c92fb696a1390800000000000000
+      internalID: -7846843488386900652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5f3b217ec9de020800000000000000
+      internalID: 2372725094959281598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d79fd8e973922e10800000000000000
+      internalID: 2171460122153293782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63274f863ef766620800000000000000
+      internalID: 2767039635760902710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8bd9629f49a2460800000000000000
+      internalID: 7217745150630279376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804e31459216e8560800000000000000
+      internalID: 7317893274655777800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514c61dcda7c83580800000000000000
+      internalID: -8847101918685248491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2e7d42fb7a0b770800000000000000
+      internalID: 8624577725813220074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cab6352fa7a94a70800000000000000
+      internalID: 8811758516612545220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef76194663128ca0800000000000000
+      internalID: -6016224822179758112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d5b2c9def5e9b60800000000000000
+      internalID: 7754741082510548350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7197a64569bf12440800000000000000
+      internalID: 4909481691890481431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab60f51e98113e20800000000000000
+      internalID: 3328468666855484328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d6c3efafca358c0800000000000000
+      internalID: -4011672649049805564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350508bb9e255c5a0800000000000000
+      internalID: -6501699323212836781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a267691a300744450800000000000000
+      internalID: 6072101358500476458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe68f0dc7523eb4b0800000000000000
+      internalID: -5422841548623608081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75512a70b36ea7ae0800000000000000
+      internalID: -1550673980470192809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f38665db1e82c70800000000000000
+      internalID: 8946648863086231362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f54233f07faf5e0800000000000000
+      internalID: -1874914650191798390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7936624982fa9bd0800000000000000
+      internalID: -2622517161651455619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427133f2fd1ed48a0800000000000000
+      internalID: -6319146353445103836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7920f9cb6aab280800000000000000
+      internalID: -9026719174058928175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b941d01af16fa1450800000000000000
+      internalID: 6060426864286831771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90377616ea3f00ae0800000000000000
+      internalID: -1584999138550385911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc140cfb6317ed890800000000000000
+      internalID: -7431377855155519027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d897c1a36705ed0800000000000000
+      internalID: -2427310207194788556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a6ccc9e26aa1990800000000000000
+      internalID: -7414431117382751726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_71
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9336cf8d9f69b390800000000000000
+      internalID: -7802082156929993830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b033649a67525de0800000000000000
+      internalID: -1345917223362678606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9724663e5b5cb90800000000000000
+      internalID: -7222166439140886034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e26306d0de09920800000000000000
+      internalID: 2995154393905901116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_75
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97cf617efc897f80800000000000000
+      internalID: -8108294629651134562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a145e01b9ad2d1d0800000000000000
+      internalID: -3327356815135129182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31c36d6186a64af0800000000000000
+      internalID: -412459241041575621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c2ac7cc6365b110800000000000000
+      internalID: 1276035388288937000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_79
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebadde74d6fcc5d0800000000000000
+      internalID: -3040784255859971099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5209cd4a9bbd3e0800000000000000
+      internalID: -2027823089474067026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566cdc77690b0b000800000000000000
+      internalID: 49733756202632805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18baf601de9e49de0800000000000000
+      internalID: -1327178785775178879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8bdab98bc09f1d0800000000000000
+      internalID: -3316605663556290322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7277d87194faff7a0800000000000000
+      internalID: -6341157021851748569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd30c4467f5af4dd0800000000000000
+      internalID: -2499596786209127460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19179c1f8656d4c80800000000000000
+      internalID: -8336895833785405039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6125122b1c85ecb80800000000000000
+      internalID: -8372657068294712810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12e9f0bb19c1dd10800000000000000
+      internalID: 2148719618002903579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b2c225713b4f090800000000000000
+      internalID: -8001573725186282627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb8d1c66be1ea00800000000000000
+      internalID: 784166636710575287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91b748cb60c0e880800000000000000
+      internalID: -8583649320613989987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7431d02deab6832e0800000000000000
+      internalID: -2145846823849487545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a93ade7ff0f2e360800000000000000
+      internalID: 7197580134627031460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beda0b56f73b3370800000000000000
+      internalID: 8303291869216562867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c0fd464ec587dc0800000000000000
+      internalID: -3641058162714407854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9658ab4c251311ac0800000000000000
+      internalID: -3886270771886389911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_97
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cff2880003b5770800000000000000
+      internalID: 8600520692237073514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5c8d4b1b8275170800000000000000
+      internalID: 8167041192968111593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a1078677d81fdb0800000000000000
+      internalID: -4759867787161101753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f60f55535d1e6620800000000000000
+      internalID: 2769183064631215857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_101
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52c772235cb2c4c0800000000000000
+      internalID: -4268642431547227556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4496f3b11a1a11c90800000000000000
+      internalID: -7200796615869765308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967e294d27b8cc5a0800000000000000
+      internalID: -6499666836893538455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_104
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3f516fac18a51d0800000000000000
+      internalID: -3361231463166643268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4c9597d0bedeeb0800000000000000
+      internalID: -4688833193919789892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a8af33f4a184920800000000000000
+      internalID: 2974656481355008634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_107
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1225e017fb642860800000000000000
+      internalID: 7504241587990635037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c5997ec5dff61f0800000000000000
+      internalID: -1049341612689630084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_109
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c59baa90e7e3fd0800000000000000
+      internalID: -2360310574711481216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_110
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb8fb11aa2f63830800000000000000
+      internalID: 4050691727122467791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_111
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08409eb4576bf2850800000000000000
+      internalID: 6354498214144050304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd5923f89b9843a0800000000000000
+      internalID: -6680918965987222079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bed351f9717b310800000000000000
+      internalID: 1420630179482299226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains-tile-map_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8357ebe6caa7eb370800000000000000
+      internalID: 8340238440947676472
       vertices: []
       indices: 
       edges: []

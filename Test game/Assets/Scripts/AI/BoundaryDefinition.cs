@@ -68,7 +68,7 @@ public class BoundaryDefinition
         {
             insideValue = PointDirectionOnLine(vectorA, vectorB, inside);
 
-            ForceGoingInside = GeneralTools.GetVector2FromVector3(CalculateForceInside());
+            ForceGoingInside = -GeneralTools.GetVector2FromVector3(CalculateForceInside());
             perpendicularForce = Vector2.Perpendicular(ForceGoingInside);
         }
 

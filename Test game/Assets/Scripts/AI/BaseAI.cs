@@ -93,7 +93,14 @@ public class BaseAI : MonoBehaviour
         attackTimer += Time.deltaTime;
 
         if (attackTimer > attackReloadTime)
+        {
             attackTimer = 0;
+
+            // Perform attack
+            PlayerInfo player = closeByEntity.GetComponent<PlayerInfo>();
+            if (player)
+                player.DealDamage(1);
+        }
 
         CheckForEnemyCloseBy();
 
@@ -139,10 +146,11 @@ public class BaseAI : MonoBehaviour
             if (distanceToEntity < sightRange)
             {
                 closeByEntity = entity;
-                state = AIState.Charging;
 
                 if (distanceToEntity < attackRange)
                     state = AIState.Attacking;
+                else
+                    state = AIState.Charging;
 
                 break;
             }

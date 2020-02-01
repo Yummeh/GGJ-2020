@@ -8,6 +8,12 @@ public class BulletBase : MonoBehaviour
     [SerializeField] protected float maxSpeed = 3;
     [HideInInspector] public GameObject bulletOwner;
     [HideInInspector] public Vector3 direction;
+    protected PlayerInfo player;
+
+    protected void Awake()
+    {
+        player = FindObjectOfType<PlayerInfo>();
+    }
 
     protected virtual void OnEnable()
     {
@@ -26,7 +32,7 @@ public class BulletBase : MonoBehaviour
     {
         if (collider.transform.CompareTag("Player"))
         {
-            // Do damage to enemy
+            player.DealDamage(damage);
         }
 
         if(bulletOwner != collider.gameObject)

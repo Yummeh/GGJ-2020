@@ -454,6 +454,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6383315306768214360, guid: e6ec5111291ba9b409c3945ee2b0ec65,
         type: 3}
+      propertyPath: avoidPoints.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383315306768214360, guid: e6ec5111291ba9b409c3945ee2b0ec65,
+        type: 3}
       propertyPath: attackableEntities.Array.data[0]
       value: 
       objectReference: {fileID: 647798525}

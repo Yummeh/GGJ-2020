@@ -13,10 +13,7 @@ public class PassiveSlimeAI : BaseAI
     {
         base.OnTriggerEnter2D(collision);
 
-        if (collision.CompareTag("Weapon"))
-        {
-            fleeTimer = 0;
-            state = AIState.Fleeing;
-        }
+        fleeTimer = 0;
+        state = AIState.Fleeing;
     }
 }

@@ -68,7 +68,10 @@ public class AIManager : MonoBehaviour
     private void SpawnEnemy()
     {
         List<GameObject> availableEnemies = spawnableEnemies[(int)currentLevel].availableEnemies;
-        Instantiate(availableEnemies[Random.Range(0, availableEnemies.Count)], enemyParent);
+        GameObject enemy = Instantiate(availableEnemies[Random.Range(0, availableEnemies.Count)], enemyParent);
+
+        List<SpawnPoint> spawnList = spawnLists[(int)currentLevel].spawnPoints;
+        enemy.transform.position = spawnList[Random.Range(0, spawnList.Count)].transform.position;
     }
 
     // Draw info in the scene

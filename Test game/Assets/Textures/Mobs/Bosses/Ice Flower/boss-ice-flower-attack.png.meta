@@ -1,7 +1,103 @@
 fileFormatVersion: 2
 guid: e264aa7829101834cbdb58bd31ceda1a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2687576745769942528
+    second: boss-ice-flower-attack_0
+  - first:
+      213: -422842751911275645
+    second: boss-ice-flower-attack_0
+  - first:
+      213: -4823938215743184925
+    second: boss-ice-flower-attack_1
+  - first:
+      213: 4677520467809367571
+    second: boss-ice-flower-attack_2
+  - first:
+      213: 2311021337780429404
+    second: boss-ice-flower-attack_3
+  - first:
+      213: 387938281607732415
+    second: boss-ice-flower-attack_4
+  - first:
+      213: 3597445220967035269
+    second: boss-ice-flower-attack_5
+  - first:
+      213: 7687742853941756724
+    second: boss-ice-flower-attack_6
+  - first:
+      213: 8769778143548774829
+    second: boss-ice-flower-attack_7
+  - first:
+      213: 1591122832079466175
+    second: boss-ice-flower-attack_8
+  - first:
+      213: -3756014489089172051
+    second: boss-ice-flower-attack_9
+  - first:
+      213: -6774296922630631244
+    second: boss-ice-flower-attack_10
+  - first:
+      213: 4349038848241683596
+    second: boss-ice-flower-attack_11
+  - first:
+      213: 1016347789747685662
+    second: boss-ice-flower-attack_12
+  - first:
+      213: 7810368887705721300
+    second: boss-ice-flower-attack_13
+  - first:
+      213: -2733970394958772016
+    second: boss-ice-flower-attack_14
+  - first:
+      213: 3428897150578199956
+    second: boss-ice-flower-attack_15
+  - first:
+      213: -6443840831326798164
+    second: boss-ice-flower-attack_1
+  - first:
+      213: -552220190650589866
+    second: boss-ice-flower-attack_2
+  - first:
+      213: 260020954747397954
+    second: boss-ice-flower-attack_3
+  - first:
+      213: 6300832427753784682
+    second: boss-ice-flower-attack_4
+  - first:
+      213: -4576109071936806831
+    second: boss-ice-flower-attack_5
+  - first:
+      213: 5104267290625194609
+    second: boss-ice-flower-attack_6
+  - first:
+      213: -7599290779583430851
+    second: boss-ice-flower-attack_7
+  - first:
+      213: -7208861706369309898
+    second: boss-ice-flower-attack_8
+  - first:
+      213: 7722003115913627350
+    second: boss-ice-flower-attack_9
+  - first:
+      213: -3237304085005842711
+    second: boss-ice-flower-attack_10
+  - first:
+      213: 5984515966985800400
+    second: boss-ice-flower-attack_11
+  - first:
+      213: -4683340511515745965
+    second: boss-ice-flower-attack_12
+  - first:
+      213: -8020108836470342962
+    second: boss-ice-flower-attack_13
+  - first:
+      213: 8023840496451651195
+    second: boss-ice-flower-attack_14
+  - first:
+      213: -6977371445166070648
+    second: boss-ice-flower-attack_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +127,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,14 +136,14 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -70,9 +166,357 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383da78e1c2c12af0800000000000000
+      internalID: -422842751911275645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caebb93a7e0e296a0800000000000000
+      internalID: -6443840831326798164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d197299ae1658f0800000000000000
+      internalID: -552220190650589866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24760e14ea7cb9300800000000000000
+      internalID: 260020954747397954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65c685b5bd017750800000000000000
+      internalID: 6300832427753784682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150a3c95b056e70c0800000000000000
+      internalID: -4576109071936806831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a3c58ae0006d640800000000000000
+      internalID: 5104267290625194609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f370a7c45e98690800000000000000
+      internalID: -7599290779583430851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633e0f4e87af4fb90800000000000000
+      internalID: -7208861706369309898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6cd76cbe01a2b60800000000000000
+      internalID: 7722003115913627350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e64e4f2619c213d0800000000000000
+      internalID: -3237304085005842711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da87dc80954d0350800000000000000
+      internalID: 5984515966985800400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35168e04e9e610fb0800000000000000
+      internalID: -4683340511515745965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecab63e6189d2b090800000000000000
+      internalID: -8020108836470342962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76056d5b686a5f60800000000000000
+      internalID: 8023840496451651195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-ice-flower-attack_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8842ce863a56b2f90800000000000000
+      internalID: -6977371445166070648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

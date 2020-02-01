@@ -19,7 +19,7 @@ public class Boundary : MonoBehaviour
 
     #endregion
 
-    protected virtual void Start()
+    protected virtual void Awake()
     {
         SetupCollider();
     }

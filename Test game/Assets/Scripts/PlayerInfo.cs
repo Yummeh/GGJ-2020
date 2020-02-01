@@ -5,11 +5,12 @@ using UnityEngine;
 public class PlayerInfo : MonoBehaviour
 {
     public int health { get; private set; }
+    public HealthUI healthUI;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        health = 6;
     }
 
     // Update is called once per frame
@@ -28,9 +29,13 @@ public class PlayerInfo : MonoBehaviour
     public void DealDamage(int damage)
     {
         health -= damage;
+       
         if (health <= 0)
         {
             OnDeath();
+            health = 0;
         }
+
+        healthUI.UpdateHeart();
     }
 }

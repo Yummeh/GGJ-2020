@@ -76,6 +76,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: {x: 0, y: 0}
   movementSpeed: 10
+  dashSpeed: 20
+  dashDuration: 0.25
+  dashSpeedOverTime: 30
+  dashCooldown: 0.5
 --- !u!50 &4805777470817702850
 Rigidbody2D:
   serializedVersion: 4

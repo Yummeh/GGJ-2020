@@ -1,16 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BaseAI : MonoBehaviour
 {
-    [SerializeField] protected AIState state;
+    private AIState _state;
+    public AIState state {
+        get {
+            return _state;
+        }
+        protected set {
+            eventStateChange.Invoke(state, value);
+            _state = value;
+        }
+    }
+    [SerializeField] private AIState defaultState;
+    public StateEvent eventStateChange; // void StateEnd(AIState oldState, AIState newState)
+    public UnityEvent eventDeath;
+    public bool destroyOnDeath = true;
 
     // Speed info
     [SerializeField] protected float maxSpeed = 3;
     [SerializeField] protected float accelerationChangeMultiplier = 2;
     protected float timeWithMultiplier;
-    protected Vector3 velocity;
+    public Vector3 velocity { get; protected set; }
 
     // Stats
     [SerializeField] protected int health = 3;
@@ -25,11 +39,11 @@ public class BaseAI : MonoBehaviour
     // Flee variables
     protected GameObject recievedDamageFrom;
     protected float fleeTimer;
-    protected float fleeMaxTime = 3;
+    [SerializeField] protected float fleeMaxTime = 3;
 
     // Attack variables
     protected float attackTimer;
-    protected float attackReloadTime = 1;
+    [SerializeField] protected float attackReloadTime = 1;
 
     // Charge variables
     protected GameObject closeByEntity;
@@ -44,6 +58,7 @@ public class BaseAI : MonoBehaviour
 
     // References
     protected AIManager manager;
+    protected Rigidbody2D rb;
 
     #region Behaviours
 
@@ -93,7 +108,14 @@ public class BaseAI : MonoBehaviour
         attackTimer += Time.deltaTime;
 
         if (attackTimer > attackReloadTime)
+        {
             attackTimer = 0;
+
+            // Perform attack
+            PlayerInfo player = closeByEntity.GetComponent<PlayerInfo>();
+            if (player)
+                player.DealDamage(1);
+        }
 
         CheckForEnemyCloseBy();
 
@@ -104,6 +126,7 @@ public class BaseAI : MonoBehaviour
     {
         if (knockbackTimer >= 0f)
         {
+            knockbackTimer -= Time.deltaTime;
             Vector3 dir = velocity;
             dir.Normalize();
             dir *= knockbackReduction * Time.deltaTime;
@@ -124,7 +147,10 @@ public class BaseAI : MonoBehaviour
 
     protected virtual void Death()
     {
-        Destroy(gameObject);
+        eventDeath.Invoke();
+
+        if (destroyOnDeath)
+            Destroy(gameObject);
     }
 
     #endregion
@@ -139,10 +165,11 @@ public class BaseAI : MonoBehaviour
             if (distanceToEntity < sightRange)
             {
                 closeByEntity = entity;
-                state = AIState.Charging;
 
                 if (distanceToEntity < attackRange)
                     state = AIState.Attacking;
+                else
+                    state = AIState.Charging;
 
                 break;
             }
@@ -157,7 +184,7 @@ public class BaseAI : MonoBehaviour
 
         if (boundaryForce != Vector3.zero)
         {
-            if(state != AIState.Wandering)
+            if (state != AIState.Wandering)
                 velocity += boundaryForce * timeWithMultiplier;
 
             randomDirection = boundaryForce;
@@ -217,6 +244,8 @@ public class BaseAI : MonoBehaviour
     protected virtual void Start()
     {
         manager = FindObjectOfType<AIManager>();
+        rb = GetComponent<Rigidbody2D>();
+        state = defaultState;
     }
 
     protected virtual void Update()
@@ -255,7 +284,7 @@ public class BaseAI : MonoBehaviour
             velocity = velocity.normalized * maxSpeed;
 
         // Set the speed
-        transform.position += velocity * Time.deltaTime;
+        rb.velocity = velocity;
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
@@ -323,4 +352,10 @@ public enum AIState
     Attacking,
     Charging,
     Hurt,
+}
+
+// Event used to signify a change in state
+[System.Serializable]
+public class StateEvent : UnityEvent<AIState, AIState>
+{
 }

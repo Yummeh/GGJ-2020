@@ -7,7 +7,9 @@ public class WeaponBehavior : MonoBehaviour
     [SerializeField]
     private GameObject weaponObj;
     private BoxCollider2D weaponBox;
-    private SpriteRenderer weaponSprite;
+    [SerializeField]
+    private GameObject weaponSpriteObj;
+    private Animator weaponAnimator;
 
     [SerializeField]
     private float activeDuration = 1f;
@@ -22,9 +24,6 @@ public class WeaponBehavior : MonoBehaviour
     {
         if (weaponObj != null)
         {
-            // TEMP
-            weaponSprite = weaponObj.GetComponent<SpriteRenderer>();
-
             weaponBox = weaponObj.GetComponent<BoxCollider2D>();
             if (weaponBox == null)
             {
@@ -39,6 +38,21 @@ public class WeaponBehavior : MonoBehaviour
         else
         {
             print("weapon object not set");
+            enabled = false;
+        }
+
+        if (weaponSpriteObj != null)
+        {
+            weaponAnimator = weaponSpriteObj.GetComponent<Animator>();
+            if (weaponBox == null)
+            {
+                print("weapon sprite has no Animator");
+                enabled = false;
+            }
+        }
+        else
+        {
+            print("weapon sprite not set");
             enabled = false;
         }
     }
@@ -77,9 +91,7 @@ public class WeaponBehavior : MonoBehaviour
         weaponActive = true;
         activeTimer = activeDuration;
         weaponBox.enabled = true;
-
-        // TEMP
-        weaponSprite.color = new Color(0.5f, 0f, 0f);
+        weaponAnimator.SetTrigger("Attack");
     }
 
     void UpdateUse()
@@ -94,9 +106,6 @@ public class WeaponBehavior : MonoBehaviour
                     weaponActive = false;
                     weaponBox.enabled = false;
                     activeTimer = activeCooldown;
-
-                    // TEMP
-                    weaponSprite.color = new Color(1f, 1f, 1f);
                 }
                 else
                 {

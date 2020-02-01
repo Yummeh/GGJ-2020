@@ -1085,6 +1085,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5973629920882760816, guid: 578cd9d68fee7ab4d869a3d13a5b95bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8591306725215704745, guid: 578cd9d68fee7ab4d869a3d13a5b95bd,
         type: 3}
       propertyPath: m_SortingOrder
@@ -8348,7 +8353,7 @@ Camera:
   far clip plane: 1000
   field of view: 49.9
   orthographic: 1
-  orthographic size: 3.692501
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

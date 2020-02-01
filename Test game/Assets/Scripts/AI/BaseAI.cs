@@ -25,17 +25,26 @@ public class BaseAI : MonoBehaviour
     // Flee variables
     protected GameObject recievedDamageFrom;
     protected float fleeTimer;
-    protected float fleeMaxTime = 3;
+    [SerializeField] protected float fleeMaxTime = 3;
 
     // Attack variables
     protected float attackTimer;
-    protected float attackReloadTime = 1;
+    [SerializeField] protected float attackReloadTime = 1;
 
     // Charge variables
     protected GameObject closeByEntity;
 
+    // Hurt variables
+    protected bool invincible = false;
+    protected float invincibleTimer = 0f;
+    [SerializeField] protected float invincibleDuration = 0.5f;
+    protected float knockbackTimer = 0f;
+    protected float knockbackReduction = 0.5f;
+    private AIState preKnockbackState = AIState.Attacking;
+
     // References
     protected AIManager manager;
+    protected Rigidbody2D rb;
 
     #region Behaviours
 
@@ -92,6 +101,28 @@ public class BaseAI : MonoBehaviour
         velocity *= 0.8f;
     }
 
+    protected virtual void Hurt()
+    {
+        if (knockbackTimer >= 0f)
+        {
+            Vector3 dir = velocity;
+            dir.Normalize();
+            dir *= knockbackReduction * Time.deltaTime;
+            if (velocity.magnitude > dir.magnitude)
+            {
+                velocity -= dir;
+            }
+            else
+            {
+                velocity = new Vector3(0f, 0f, 0f);
+            }
+        }
+        else
+        {
+            state = preKnockbackState;
+        }
+    }
+
     protected virtual void Death()
     {
         Destroy(gameObject);
@@ -127,7 +158,7 @@ public class BaseAI : MonoBehaviour
 
         if (boundaryForce != Vector3.zero)
         {
-            if(state != AIState.Wandering)
+            if (state != AIState.Wandering)
                 velocity += boundaryForce * timeWithMultiplier;
 
             randomDirection = boundaryForce;
@@ -156,9 +187,38 @@ public class BaseAI : MonoBehaviour
         return Vector3.zero;
     }
 
+    private void UpdateInvincibility()
+    {
+        if (invincibleTimer >= 0f)
+        {
+            invincibleTimer -= Time.deltaTime;
+        }
+        else
+        {
+            invincible = false;
+        }
+    }
+
+    public void MakeInvincible(float duration)
+    {
+        invincible = true;
+        invincibleTimer = duration;
+    }
+
+    public virtual void Knockback(Vector3 knockback, float duration, float velReduction)
+    {
+        knockback.z = 0;
+        velocity = knockback;
+        knockbackTimer = duration;
+        knockbackReduction = velReduction;
+        preKnockbackState = state;
+        state = AIState.Hurt;
+    }
+
     protected virtual void Start()
     {
         manager = FindObjectOfType<AIManager>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     protected virtual void Update()
@@ -179,28 +239,71 @@ public class BaseAI : MonoBehaviour
             case AIState.Attacking:
                 Attack();
                 break;
+            case AIState.Hurt:
+                Hurt();
+                break;
         }
 
         CheckCollisionWithBoundaries();
+        // Update the invincibility
+        UpdateInvincibility();
 
         // Check if this AI is dead
         if (health <= 0)
             Death();
 
-        // Cap speed
-        if (velocity.magnitude > maxSpeed)
+        // Cap speed (but not during knockback)
+        if (velocity.magnitude > maxSpeed && state != AIState.Hurt)
             velocity = velocity.normalized * maxSpeed;
 
         // Set the speed
-        transform.position += velocity * Time.deltaTime;
+        rb.velocity = velocity;
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Weapon"))
         {
-            recievedDamageFrom = collision.gameObject;
-            health--;
+            if (!invincible)
+            {
+                // Get properties
+                WeaponInfo weapon = collision.GetComponent<WeaponInfo>();
+
+                // Knockback
+                Transform root = collision.transform.root;
+                if (root == null)
+                {
+                    root = collision.transform;
+                }
+                Vector3 diff = transform.position - root.position;
+                if (diff.magnitude > 0.05f)
+                {
+                    diff.Normalize();
+
+                    if (weapon != null)
+                    {
+                        Knockback(diff * weapon.knockbackSpeed, weapon.knockbackDuration, weapon.knockbackOverTime);
+                    }
+                    else
+                    {
+                        Knockback(diff * 5f, 1.5f, 5f / 1.5f);
+                    }
+                }
+
+                // Invincibility
+                if (weapon != null)
+                {
+                    MakeInvincible(weapon.invincibilityDuration);
+                }
+                else
+                {
+                    MakeInvincible(invincibleDuration);
+                }
+
+                // Handle hit
+                recievedDamageFrom = collision.gameObject;
+                health--;
+            }
         }
     }
 
@@ -220,5 +323,6 @@ public enum AIState
     Wandering,
     Fleeing,
     Attacking,
-    Charging
+    Charging,
+    Hurt,
 }

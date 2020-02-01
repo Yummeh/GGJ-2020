@@ -8,12 +8,15 @@ public class AIManager : MonoBehaviour
 
     public PolygonalBoundary boundary;
 
+    public PlayerMovement player;
+
     // Input from the user for point the fish should avoid, these can be moving or static
     [SerializeField] public List<AvoidPoint> avoidPoints = new List<AvoidPoint>();
 
     private void Awake()
     {
         boundary = GetComponent<PolygonalBoundary>();
+        player = FindObjectOfType<PlayerMovement>();
     }
 
     // Draw info in the scene

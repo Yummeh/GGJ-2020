@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 138719943}
   - component: {fileID: 138719945}
   - component: {fileID: 138719944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stage 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 239676170}
   - component: {fileID: 239676172}
   - component: {fileID: 239676171}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stage 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -1193,7 +1193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 763719978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spaceship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123233,7 +123233,7 @@ GameObject:
   - component: {fileID: 1594872899}
   - component: {fileID: 1594872901}
   - component: {fileID: 1594872900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stage 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123292,7 +123292,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -123654,7 +123654,7 @@ GameObject:
   - component: {fileID: 1873707513}
   - component: {fileID: 1873707515}
   - component: {fileID: 1873707514}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stage 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123713,7 +123713,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16

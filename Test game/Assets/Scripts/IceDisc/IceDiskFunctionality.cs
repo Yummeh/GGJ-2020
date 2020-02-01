@@ -45,9 +45,12 @@ public class IceDiskFunctionality : AbilityBase
     // Update is called once per frame
     void Update()
     {
+        returnPosition = new Vector2(returnSpot.transform.position.x, returnSpot.transform.position.y);
+
         if (throwDisk) 
         {   
-            if (Vector2.Distance(rigidbody.position, new Vector2(mouseWorldPos.x, mouseWorldPos.y)) < 0.5f)
+            if (Vector2.Distance(rigidbody.position, new Vector2(mouseWorldPos.x, mouseWorldPos.y)) < 0.5f || 
+                Vector2.Distance(rigidbody.position, returnPosition) > travelDistance)
             {
                 returnDisk = true;
                 throwDisk = false;
@@ -56,7 +59,6 @@ public class IceDiskFunctionality : AbilityBase
         } 
         else if (returnDisk)
         {
-            returnPosition = new Vector2(returnSpot.transform.position.x, returnSpot.transform.position.y);
             rigidbody.MovePosition(Vector2.MoveTowards(rigidbody.position, returnPosition, 0.7f));
             if (Vector2.Distance(rigidbody.position, returnPosition) < 0.5f)
             {

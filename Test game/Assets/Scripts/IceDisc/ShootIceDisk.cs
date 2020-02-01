@@ -18,7 +18,6 @@ public class ShootIceDisk : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
-            print("yes");
             IceDisk.SetActive(true);
         }
     }

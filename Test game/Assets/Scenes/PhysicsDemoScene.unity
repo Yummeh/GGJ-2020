@@ -402,6 +402,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c897bb5e5c47b246a97c28d4fd8f5df, type: 3}
+--- !u!1 &1230443728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6383315306768214361, guid: e6ec5111291ba9b409c3945ee2b0ec65,
+    type: 3}
+  m_PrefabInstance: {fileID: 1899816971}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1230443729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230443728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aabd03cb7f9da84eb4034a14e6f3e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showGraphic: 0
+  points: []
+  checkIfBetweenPoints: 
+  lines: []
 --- !u!1001 &1436859604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -654,6 +676,11 @@ PrefabInstance:
       propertyPath: attackableEntities.Array.data[0]
       value: 
       objectReference: {fileID: 235071798}
+    - target: {fileID: 6383315306768214360, guid: e6ec5111291ba9b409c3945ee2b0ec65,
+        type: 3}
+      propertyPath: boundary
+      value: 
+      objectReference: {fileID: 1230443729}
     - target: {fileID: 6383315306768214361, guid: e6ec5111291ba9b409c3945ee2b0ec65,
         type: 3}
       propertyPath: m_Name

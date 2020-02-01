@@ -9,6 +9,7 @@ public class BaseAI : MonoBehaviour
     // Speed info
     [SerializeField] protected float maxSpeed = 3;
     [SerializeField] protected float accelerationChangeMultiplier = 2;
+    protected float timeWithMultiplier;
     protected Vector3 velocity;
 
     // Stats
@@ -44,12 +45,14 @@ public class BaseAI : MonoBehaviour
     // References
     protected AIManager manager;
 
+    #region Behaviours
+
     // Fleeing behaviour
     protected virtual void Flee()
     {
         fleeTimer += Time.deltaTime;
 
-        velocity += (transform.position - recievedDamageFrom.transform.position).normalized * maxSpeed * Time.deltaTime * accelerationChangeMultiplier;
+        velocity += (transform.position - recievedDamageFrom.transform.position).normalized * timeWithMultiplier;
 
         // Go back to wandering when the flee time has run out
         if (fleeTimer > fleeMaxTime)
@@ -65,9 +68,9 @@ public class BaseAI : MonoBehaviour
         {
             wanderTimer = 0;
             changeDirectionWanderTime = Random.Range(1f, 3f);
-            randomDirection = new Vector3(Random.Range(-maxSpeed, maxSpeed), Random.Range(-maxSpeed, maxSpeed), 0).normalized;
+            randomDirection = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0).normalized;
         }
-        velocity += randomDirection * Time.deltaTime * accelerationChangeMultiplier;
+        velocity += randomDirection * timeWithMultiplier;
 
         CheckForEnemyCloseBy();
     }
@@ -82,27 +85,7 @@ public class BaseAI : MonoBehaviour
             return;
         }
 
-        velocity += (closeByEntity.transform.position - transform.position).normalized * maxSpeed * Time.deltaTime * accelerationChangeMultiplier;
-    }
-
-    // Check if an enemy is close by
-    protected void CheckForEnemyCloseBy()
-    {
-        closeByEntity = null;
-        foreach (GameObject entity in manager.attackableEntities)
-        {
-            float distanceToEntity = Vector3.Distance(entity.transform.position, transform.position);
-            if (distanceToEntity < sightRange)
-            {
-                closeByEntity = entity;
-                state = AIState.Charging;
-
-                if (distanceToEntity < attackRange)
-                    state = AIState.Attacking;
-
-                break;
-            }
-        }
+        velocity += (closeByEntity.transform.position - transform.position).normalized * timeWithMultiplier;
     }
 
     protected virtual void Attack()
@@ -139,6 +122,70 @@ public class BaseAI : MonoBehaviour
         }
     }
 
+    protected virtual void Death()
+    {
+        Destroy(gameObject);
+    }
+
+    #endregion
+
+    // Check if an enemy is close by
+    protected void CheckForEnemyCloseBy()
+    {
+        closeByEntity = null;
+        foreach (GameObject entity in manager.attackableEntities)
+        {
+            float distanceToEntity = Vector3.Distance(entity.transform.position, transform.position);
+            if (distanceToEntity < sightRange)
+            {
+                closeByEntity = entity;
+                state = AIState.Charging;
+
+                if (distanceToEntity < attackRange)
+                    state = AIState.Attacking;
+
+                break;
+            }
+        }
+    }
+
+    // Check collision with boundary
+    protected void CheckCollisionWithBoundaries()
+    {
+        Vector3 boundaryForce = manager.boundary.ForceInsideBounds(transform.position, true);
+        boundaryForce += AvoidPoints();
+
+        if (boundaryForce != Vector3.zero)
+        {
+            if(state != AIState.Wandering)
+                velocity += boundaryForce * timeWithMultiplier;
+
+            randomDirection = boundaryForce;
+            wanderTimer = 0;
+        }
+    }
+
+    // Avoid points provide by the manager
+    private Vector3 AvoidPoints()
+    {
+        for (int iPoint = 0; iPoint < manager.avoidPoints.Count; iPoint++)
+        {
+            // Get point from index
+            AvoidPoint point = manager.avoidPoints[iPoint];
+
+            // Calculate the distance the fish is from the avoid point
+            float distance = Vector3.Distance(transform.position, point.GetPos());
+            if (distance < point.radius)
+            {
+                // Add force in the opposite direction of the point
+                Vector3 direction = (transform.position - point.GetPos()).normalized;
+                return direction * point.strength;
+            }
+        }
+
+        return Vector3.zero;
+    }
+
     private void UpdateInvincibility()
     {
         if (invincibleTimer >= 0f)
@@ -167,11 +214,6 @@ public class BaseAI : MonoBehaviour
         state = AIState.Hurt;
     }
 
-    protected virtual void Death()
-    {
-        Destroy(gameObject);
-    }
-
     protected virtual void Start()
     {
         manager = FindObjectOfType<AIManager>();
@@ -179,6 +221,8 @@ public class BaseAI : MonoBehaviour
 
     protected virtual void Update()
     {
+        timeWithMultiplier = Time.deltaTime * accelerationChangeMultiplier;
+
         switch (state)
         {
             case AIState.Wandering:
@@ -198,6 +242,7 @@ public class BaseAI : MonoBehaviour
                 break;
         }
 
+        CheckCollisionWithBoundaries();
         // Update the invincibility
         UpdateInvincibility();
 
@@ -258,11 +303,6 @@ public class BaseAI : MonoBehaviour
                 health--;
             }
         }
-    }
-
-    protected virtual void OnCollisionEnter2D(Collision2D collision)
-    {
-        velocity = new Vector3(-collision.relativeVelocity.x, -collision.relativeVelocity.y, 0);
     }
 
     protected virtual void OnDrawGizmos()

@@ -82,6 +82,15 @@ public class WeaponBehavior : MonoBehaviour
         {
             float angle = Mathf.Atan2(delta.x, -delta.y) * Mathf.Rad2Deg - 90f;
             transform.localEulerAngles = new Vector3(0f, 0f, angle);
+
+            if ((angle + 360f + 90) % 360f < 180f)
+            {
+                weaponSpriteObj.transform.localScale = new Vector3(1f, 1f, 1f);
+            }
+            else
+            {
+                weaponSpriteObj.transform.localScale = new Vector3(1f, -1f, 1f);
+            }
         }
     }
 

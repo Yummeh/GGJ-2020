@@ -75,9 +75,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 75598b3c0c1bf4344b0bde098b4c46e0, type: 3}
-  m_Color: {r: 0.08395362, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.082353115, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -112,8 +112,8 @@ MonoBehaviour:
   health: 3
   sightRange: 10
   attackRange: 2
-  fleeMaxTime: 3
-  attackReloadTime: 1
+  fleeMaxTime: 5
+  attackReloadTime: 2
   invincibleDuration: 0.5
 --- !u!50 &5650143643579694361
 Rigidbody2D:

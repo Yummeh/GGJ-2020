@@ -30,6 +30,7 @@ public class BaseAI : MonoBehaviour
     [SerializeField] protected int health = 3;
     [SerializeField] protected float sightRange = 2;
     [SerializeField] protected float attackRange = 0.3f;
+    [SerializeField] protected int damage = 1;
 
     // Wander variables.
     protected float wanderTimer = 0;
@@ -114,7 +115,7 @@ public class BaseAI : MonoBehaviour
             // Perform attack
             PlayerInfo player = closeByEntity.GetComponent<PlayerInfo>();
             if (player)
-                player.DealDamage(1);
+                player.DealDamage(damage);
         }
 
         CheckForEnemyCloseBy();
@@ -147,6 +148,8 @@ public class BaseAI : MonoBehaviour
 
     protected virtual void Death()
     {
+        manager.DeleteEnemy(gameObject);
+
         eventDeath.Invoke();
 
         if (destroyOnDeath)

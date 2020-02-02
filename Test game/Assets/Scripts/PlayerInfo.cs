@@ -5,11 +5,16 @@ using UnityEngine;
 public class PlayerInfo : MonoBehaviour
 {
     public int health { get; private set; }
+    public HealthUI healthUI;
     //public int partsCollected { get; private set; }
     public bool[] partsCollected { get; private set; }
 
     private AbilityManager abilities;
     [SerializeField] private GameObject swordObject;
+    void Awake()
+    {
+        health = 6;
+    }
 
     void Start()
     {
@@ -31,9 +36,11 @@ public class PlayerInfo : MonoBehaviour
     public void DealDamage(int damage)
     {
         health -= damage;
+       
         if (health <= 0)
         {
             OnDeath();
+            health = 0;
         }
     }
 
@@ -61,5 +68,7 @@ public class PlayerInfo : MonoBehaviour
                 abilities.UnlockAbility(1);
                 break;
         }
+
+        healthUI.UpdateHeart();
     }
 }

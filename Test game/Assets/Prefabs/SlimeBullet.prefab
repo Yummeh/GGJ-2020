@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  maxSpeed: 3
+  maxSpeed: 5
   bulletOwner: {fileID: 0}
   direction: {x: 0, y: 0, z: 0}
 --- !u!61 &3942697286268834990

@@ -26,9 +26,9 @@ public class AbilityWhip : AbilityBase
     [SerializeField] private float whipSpeed = 5f;
     [SerializeField] private float whipMoveToSpeed = 5f;
     [SerializeField] private float whipMoveToDuration = 5f;
-    [SerializeField] private float whipPullSpeed = 5f;
     [SerializeField] private float whipPullDuration = 5f;
     [SerializeField] private float whipPickupRange = 0.8f;
+    [SerializeField] private float whipPullPickupRange = 2.5f;
     private float movePullTimer = 0f;
 
 
@@ -147,7 +147,10 @@ public class AbilityWhip : AbilityBase
                 }
                 else if (state == State.LatchEnemy)
                 {
-
+                    if (delta.magnitude < whipPullPickupRange)
+                    {
+                        EndWhip();
+                    }
                 }
 
                 if (delta.magnitude < whipPickupRange)

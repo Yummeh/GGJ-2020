@@ -18,9 +18,13 @@ public class WhipProjectile : MonoBehaviour
     private BoxCollider2D coll;
     [SerializeField] private float maxDistance = 10f;
     [SerializeField] private float returnSpeed = 10f;
+    [SerializeField] private float pullSpeed = 7f;
 
     // Whip set by whip ability class
     public AbilityWhip whip;
+
+    // Hooked enemy
+    private GameObject hookedObject = null;
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +50,13 @@ public class WhipProjectile : MonoBehaviour
             deltaNorm.Normalize();
             body.velocity = new Vector2(deltaNorm.x, deltaNorm.y) * returnSpeed; // * (dis * returnDistStrnScalar);
         }
+        else if (state == State.StuckOnEntity && hookedObject != null)
+        {
+            Vector3 deltaNorm = delta;
+            deltaNorm.Normalize();
+            body.velocity = new Vector2(deltaNorm.x, deltaNorm.y) * pullSpeed; // * (dis * returnDistStrnScalar);
+            hookedObject.transform.position = transform.position;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -63,11 +74,18 @@ public class WhipProjectile : MonoBehaviour
                 // Enemy hit!
                 state = State.StuckOnEntity;
 
+                // Set hooked obj
+                hookedObject = collision.gameObject;
+
                 // Reset velocity
                 body.velocity = new Vector2(0f, 0f);
 
                 // Callback
                 whip.OnRopeConnect(this);
+
+                // Disable next collision
+                //Physics2D.IgnoreCollision(coll, collision.collider, true);
+                coll.enabled = false;
             }
             else
             {

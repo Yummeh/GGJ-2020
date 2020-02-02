@@ -21,7 +21,7 @@ public class PlayerInfo : MonoBehaviour
     // Called when player health reaches 0
     void OnDeath()
     {
-        print("I am dead");
+
     }
 
     // Deal damage to the player

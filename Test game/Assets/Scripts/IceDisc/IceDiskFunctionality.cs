@@ -35,7 +35,8 @@ public class IceDiskFunctionality : AbilityBase
 
     private void OnEnable()
     {
-        Vector2 mousePos = Input.mousePosition;
+		rigidbody = GetComponent<Rigidbody2D>();
+		Vector2 mousePos = Input.mousePosition;
         rigidbody.position = returnSpot.transform.position;
         Use(mousePos);
     }

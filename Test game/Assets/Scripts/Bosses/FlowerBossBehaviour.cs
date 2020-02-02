@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class FlowerBossBehaviour : BaseBossBehaviour
 {
-    
+    [SerializeField] protected GameObject tentacle;
+
     protected override void Start()
     {
         base.Start();

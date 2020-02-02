@@ -6,7 +6,6 @@ public class BaseBossBehaviour : MonoBehaviour
 {
     protected Animator animator;
     protected PlayerInfo player;
-    [SerializeField] protected GameObject tentacle;
     protected SpriteRenderer renderer;
 
     [SerializeField] protected float activationRange = 20;

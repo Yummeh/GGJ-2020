@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3087812459035249702}
   - component: {fileID: 5980928035629835055}
   - component: {fileID: 6065391487688658099}
-  - component: {fileID: 1690842665}
   - component: {fileID: 5352947552850903693}
+  - component: {fileID: 775709518}
   m_Layer: 0
   m_Name: IceDisk
   m_TagString: Untagged
@@ -103,7 +103,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!50 &1690842665
+--- !u!114 &5352947552850903693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608506691226705445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39a0f608d49ee54fbee119e9cab3642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diskAnimator: {fileID: 6065391487688658099}
+  camera: {fileID: 0}
+  returnSpot: {fileID: 0}
+  travelDistance: 10
+  mouseWorldPos: {x: 0, y: 0, z: 0}
+--- !u!50 &775709518
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -124,20 +141,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5352947552850903693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1608506691226705445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e39a0f608d49ee54fbee119e9cab3642, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  diskAnimator: {fileID: 0}
-  camera: {fileID: 0}
-  returnSpot: {fileID: 0}
-  travelDistance: 10
-  mouseWorldPos: {x: 0, y: 0, z: 0}

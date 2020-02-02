@@ -7,7 +7,6 @@ public class IceDiskFunctionality : AbilityBase
 {
     [SerializeField]
     private Animator diskAnimator;
-    private SpriteRenderer renderer;
     private BoxCollider2D diskBox;
     private Rigidbody2D rigidbody;
     
@@ -31,13 +30,13 @@ public class IceDiskFunctionality : AbilityBase
         Transform CameraTransform = camera.transform;
         rigidbody = GetComponent<Rigidbody2D>();
         diskAnimator = gameObject.GetComponent<Animator>();
-        renderer = GetComponent<SpriteRenderer>();
         gameObject.SetActive(false);
     }
 
     private void OnEnable()
     {
-        Vector2 mousePos = Input.mousePosition;
+		rigidbody = GetComponent<Rigidbody2D>();
+		Vector2 mousePos = Input.mousePosition;
         rigidbody.position = returnSpot.transform.position;
         Use(mousePos);
     }

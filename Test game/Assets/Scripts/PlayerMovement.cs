@@ -16,6 +16,10 @@ public class PlayerMovement : MonoBehaviour
 
         // The player is dashing
         Dash,
+
+        // Custom movement mode
+        // Are able to edit velocity
+        Custom,
     }
 
     // Other components
@@ -155,5 +159,18 @@ public class PlayerMovement : MonoBehaviour
         velocity = kvelocity;
         knockbackTimer = duration;
         knockbackVelChange = velChange;
+    }
+
+    public void StartCustomMovement()
+    {
+        movementState = MovementState.Custom;
+    }
+
+    public void EndCustomMovement()
+    {
+        if (movementState == MovementState.Custom)
+        {
+            movementState = MovementState.Moving;
+        }
     }
 }

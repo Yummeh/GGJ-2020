@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class IceDiskFunctionality : AbilityBase
+public class IceDiskFunctionality : MonoBehaviour
 {
     [SerializeField]
     private Animator diskAnimator;
@@ -67,7 +67,7 @@ public class IceDiskFunctionality : AbilityBase
         }
     }
 
-    public override void Use(Vector2 direction) 
+    void Use(Vector2 direction) 
     {
         diskAnimator.Play("IceDisk");
         throwDisk = true;

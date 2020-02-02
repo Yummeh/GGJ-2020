@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class FlowerBossBehaviour : BaseBossBehaviour
 {
-    protected Animator animator;
-
+    
     protected override void Start()
     {
-        animator = GetComponent<Animator>();
+        base.Start();
     }
 
     protected override void Update()
     {
-        
+        base.Update();
     }
 
-    public void SpawnAttack()
+    protected override void SpawnAttack()
     {
-
+        FlowerTentacle tentacleScript = Instantiate(tentacle, transform).GetComponent<FlowerTentacle>();
+        tentacleScript.transform.position = player.transform.position;
     }
 }

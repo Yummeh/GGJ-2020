@@ -5,17 +5,15 @@ using UnityEngine;
 public class PlayerInfo : MonoBehaviour
 {
     public int health { get; private set; }
+    public int partsCollected { get; private set; }
 
-    // Start is called before the first frame update
+    private AbilityManager abilities;
+    [SerializeField] private GameObject swordObject;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        abilities = GetComponent<AbilityManager>();
+        swordObject.SetActive(false);
     }
 
     // Called when player health reaches 0
@@ -31,6 +29,32 @@ public class PlayerInfo : MonoBehaviour
         if (health <= 0)
         {
             OnDeath();
+        }
+    }
+
+    // Called on unlocking something
+    public void OnUnlock(Unlock unlock)
+    {
+        switch (unlock)
+        {
+            case Unlock.Part1:
+                partsCollected++;
+                break;
+            case Unlock.Part2:
+                partsCollected++;
+                break;
+            case Unlock.Part3:
+                partsCollected++;
+                break;
+            case Unlock.Sword:
+                swordObject.SetActive(true);
+                break;
+            case Unlock.AbilityDisk:
+                abilities.UnlockAbility(0);
+                break;
+            case Unlock.AbilityWhip:
+                abilities.UnlockAbility(1);
+                break;
         }
     }
 }

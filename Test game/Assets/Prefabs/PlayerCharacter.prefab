@@ -126,8 +126,7 @@ GameObject:
   - component: {fileID: 5690352576898710608}
   - component: {fileID: 4805777470817702850}
   - component: {fileID: 2193349001567883342}
-  - component: {fileID: 631570079}
-  - component: {fileID: 7397519896468677069}
+  - component: {fileID: 717312073144770726}
   m_Layer: 9
   m_Name: PlayerCharacter
   m_TagString: Player
@@ -150,6 +149,8 @@ Transform:
   - {fileID: 1654571837864259654}
   - {fileID: 3502382849265635422}
   - {fileID: 615127806}
+  - {fileID: 2574680986159772006}
+  - {fileID: 2685712253004235497}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -230,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f6d4f1f3b84414097a5c07b1785f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &631570079
+--- !u!114 &717312073144770726
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,32 +240,60 @@ MonoBehaviour:
   m_GameObject: {fileID: 1063521778373906671}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b98cd3b4fb6a2c4b80a3d1093504b17, type: 3}
+  m_Script: {fileID: 11500000, guid: de1ba00d3905a7c479bbfddfeccc9f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IceDisk: {fileID: 0}
---- !u!114 &7397519896468677069
+  abilities:
+  - {fileID: 1361386574508084458}
+  - {fileID: 4445166608527159027}
+  abilityUnlocked: 0101
+--- !u!1 &1361386574508084458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2685712253004235497}
+  - component: {fileID: 7170693669511073050}
+  m_Layer: 9
+  m_Name: AbilityDisk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2685712253004235497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361386574508084458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1063521778373906669}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7170693669511073050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063521778373906671}
+  m_GameObject: {fileID: 1361386574508084458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ef62527b4c0b414c8dc3781469247bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f8e6e8c2ba0f874ca8187a2b73e8da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whipProjectileType: {fileID: 7099990360795182539, guid: 58fff8ceb640aa8468c4f40ce94794d2,
+  iceDiskType: {fileID: 6620561130109692347, guid: b0f83dd5e7e7c184197529ab34813a31,
     type: 3}
-  whipRopeType: {fileID: 2863095840672623196, guid: 8e55dc7b314933344a5edb0b96886bcf,
-    type: 3}
-  whipSpeed: 20
-  whipMoveToSpeed: 20
-  whipMoveToDuration: 1.2
-  whipPullDuration: 2
-  whipPickupRange: 0.8
-  whipPullPickupRange: 2.5
+  pickupRange: 1
+  diskSpeed: 10
 --- !u!1 &1561950496598877847
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +456,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143259ef3d764df4fabf9fbb8636741e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &4445166608527159027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2574680986159772006}
+  - component: {fileID: 2450862024279331367}
+  m_Layer: 9
+  m_Name: AbilityWhip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2574680986159772006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4445166608527159027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1063521778373906669}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2450862024279331367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4445166608527159027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef62527b4c0b414c8dc3781469247bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whipProjectileType: {fileID: 7099990360795182539, guid: 58fff8ceb640aa8468c4f40ce94794d2,
+    type: 3}
+  whipRopeType: {fileID: 2863095840672623196, guid: 8e55dc7b314933344a5edb0b96886bcf,
+    type: 3}
+  whipSpeed: 20
+  whipMoveToSpeed: 20
+  whipMoveToDuration: 1.2
+  whipPullDuration: 2
+  whipPickupRange: 0.8
+  whipPullPickupRange: 2.5
 --- !u!1 &7271260191000072597
 GameObject:
   m_ObjectHideFlags: 0

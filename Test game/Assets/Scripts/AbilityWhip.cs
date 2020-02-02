@@ -44,14 +44,14 @@ public class AbilityWhip : AbilityBase
     {
         UpdateRopeRender(transform.position);
 
-        if (Input.GetMouseButtonDown(1))
-        {
-            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector3 delta = mouseWorldPos - transform.position;
-            delta.z = 0f;
-            delta.Normalize();
-            Use(delta);
-        }
+        //if (Input.GetMouseButtonDown(1))
+        //{
+        //    Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //    Vector3 delta = mouseWorldPos - transform.position;
+        //    delta.z = 0f;
+        //    delta.Normalize();
+        //    Use(delta);
+        //}
 
         // Update movement towards or from the rope
         UpdateMovement();

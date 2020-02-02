@@ -18,10 +18,14 @@ public class AbilityBase : MonoBehaviour
 
     public virtual void Activate()
     {
+        //enabled = true;
+        //gameObject.SetActive(true);
     }
 
     public virtual void Deactivate()
     {
+        //enabled = false;
+        //gameObject.SetActive(false);
     }
 
     public virtual bool IsActive()

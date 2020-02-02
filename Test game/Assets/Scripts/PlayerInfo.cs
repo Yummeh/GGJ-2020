@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerInfo : MonoBehaviour
 {
     public int health { get; private set; }
-    public int partsCollected { get; private set; }
+    //public int partsCollected { get; private set; }
+    public bool[] partsCollected { get; private set; }
 
     private AbilityManager abilities;
     [SerializeField] private GameObject swordObject;
@@ -14,6 +15,10 @@ public class PlayerInfo : MonoBehaviour
     {
         abilities = GetComponent<AbilityManager>();
         swordObject.SetActive(false);
+        partsCollected = new bool[3];
+        partsCollected[0] = false;
+        partsCollected[1] = false;
+        partsCollected[2] = false;
     }
 
     // Called when player health reaches 0
@@ -38,13 +43,13 @@ public class PlayerInfo : MonoBehaviour
         switch (unlock)
         {
             case Unlock.Part1:
-                partsCollected++;
+                partsCollected[0] = true;
                 break;
             case Unlock.Part2:
-                partsCollected++;
+                partsCollected[1] = true;
                 break;
             case Unlock.Part3:
-                partsCollected++;
+                partsCollected[2] = true;
                 break;
             case Unlock.Sword:
                 swordObject.SetActive(true);

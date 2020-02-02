@@ -7,6 +7,7 @@ public class BaseBossBehaviour : MonoBehaviour
     protected Animator animator;
     protected PlayerInfo player;
     [SerializeField] protected GameObject tentacle;
+    protected SpriteRenderer renderer;
 
     protected int mainHealth = 10;
     protected bool vunerable = false;
@@ -21,6 +22,7 @@ public class BaseBossBehaviour : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         player = FindObjectOfType<PlayerInfo>();
+        renderer = GetComponent<SpriteRenderer>();
     }
 
     protected virtual void Update()
@@ -29,7 +31,7 @@ public class BaseBossBehaviour : MonoBehaviour
         {
             attackTime += Time.deltaTime;
 
-            if (attackTime > attackTimer)
+            if (attackTime > attackTimer && mainHealth > 0)
             {
                 attackTime = 0;
                 SpawnAttack();
@@ -52,6 +54,7 @@ public class BaseBossBehaviour : MonoBehaviour
     protected virtual void OnHit()
     {
         mainHealth--;
+        StartCoroutine(FlashDamage());
 
         if (mainHealth <= 0)
             animator.SetTrigger("Death");
@@ -68,11 +71,25 @@ public class BaseBossBehaviour : MonoBehaviour
         player.DealDamage(damage);
     }
 
+    // Animation event
+    private void DestoyObject()
+    {
+        Destroy(gameObject);
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Weapon"))
-        {
+        if (collision.CompareTag("Weapon") && vunerable)
             OnHit();
+    }
+
+    private IEnumerator FlashDamage()
+    {
+        renderer.color = Color.red;
+        while (renderer.color.r > 0.01f)
+        {
+            renderer.color = Color.Lerp(renderer.color, Color.white, Time.deltaTime);
+            yield return null;
         }
     }
 }

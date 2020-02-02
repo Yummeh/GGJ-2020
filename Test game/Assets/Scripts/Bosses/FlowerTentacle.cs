@@ -7,6 +7,7 @@ public class FlowerTentacle : MonoBehaviour
     private FlowerBossBehaviour boss;
     protected Animator animator;
     protected BoxCollider2D collider;
+    protected SpriteRenderer renderer;
 
     // Timer
     private float waitTime = 0;
@@ -24,6 +25,7 @@ public class FlowerTentacle : MonoBehaviour
         boss = GetComponentInParent<FlowerBossBehaviour>();
         animator = GetComponent<Animator>();
         collider = GetComponent<BoxCollider2D>();
+        renderer = GetComponent<SpriteRenderer>();
 
         collider.enabled = false;
     }
@@ -80,6 +82,7 @@ public class FlowerTentacle : MonoBehaviour
         if (collision.CompareTag("Weapon"))
         {
             health--;
+            StartCoroutine(FlashDamage());
             if (health <= 0)
                 MakeBossVunerable();
         }
@@ -92,6 +95,16 @@ public class FlowerTentacle : MonoBehaviour
         {
             boss.GiveDamageToPlayer(1);
             canGiveDamage = false;
+        }
+    }
+
+    private IEnumerator FlashDamage()
+    {
+        renderer.color = Color.red;
+        while (renderer.color.r > 0.01f)
+        {
+            renderer.color = Color.Lerp(renderer.color, Color.white, Time.deltaTime);
+            yield return null;
         }
     }
 }

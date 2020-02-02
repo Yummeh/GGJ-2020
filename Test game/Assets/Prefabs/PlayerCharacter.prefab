@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 5690352576898710608}
   - component: {fileID: 4805777470817702850}
   - component: {fileID: 2193349001567883342}
-  m_Layer: 0
+  - component: {fileID: 2085417164145349649}
+  m_Layer: 9
   m_Name: PlayerCharacter
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -113,6 +114,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f6d4f1f3b84414097a5c07b1785f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2085417164145349649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063521778373906671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef62527b4c0b414c8dc3781469247bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whipProjectileType: {fileID: 7099990360795182539, guid: 58fff8ceb640aa8468c4f40ce94794d2,
+    type: 3}
+  whipRopeType: {fileID: 2863095840672623196, guid: 8e55dc7b314933344a5edb0b96886bcf,
+    type: 3}
+  whipSpeed: 20
+  whipMoveToSpeed: 20
+  whipMoveToDuration: 5
+  whipPullSpeed: 5
+  whipPullDuration: 5
+  whipPickupRange: 0.5
 --- !u!1 &1561950496598877847
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,7 +146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3502382849265635422}
   - component: {fileID: 1696524690128751343}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WeaponPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +196,7 @@ GameObject:
   - component: {fileID: 7235205396341071282}
   - component: {fileID: 3272059520222875053}
   - component: {fileID: 792091865483609146}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +309,7 @@ GameObject:
   - component: {fileID: 8818888224522302069}
   - component: {fileID: 935723715646034142}
   - component: {fileID: 6456022608334848247}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +411,7 @@ GameObject:
   - component: {fileID: 372858694224509689}
   - component: {fileID: 6795692310541668479}
   - component: {fileID: 2518909472980776150}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Weapon
   m_TagString: Weapon
   m_Icon: {fileID: 0}

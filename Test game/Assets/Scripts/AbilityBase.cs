@@ -24,6 +24,11 @@ public class AbilityBase : MonoBehaviour
     {
     }
 
+    public virtual bool IsActive()
+    {
+        return false;
+    }
+
     public virtual void Use(Vector2 direction)
     {
     }

@@ -16,15 +16,16 @@ public class AIManager : MonoBehaviour
     [SerializeField] private Transform enemyParent;
     [SerializeField] private Transform spawnPointParent;
 
-    // Input from the user for point the fish should avoid, these can be moving or static
     public List<AvoidPoint> avoidPoints = new List<AvoidPoint>();
     public List<SpawnList> spawnLists = new List<SpawnList>();
     public List<EnemyList> spawnableEnemies = new List<EnemyList>();
 
+    public List<List<GameObject>> enemyInstances = new List<List<GameObject>>();
+
     [Space(20f)]
     public int maxEnemiesInArea = 20;
-    private int currentEnemiesInArea = 0;
     [SerializeField] public AreaLevel currentLevel;
+    private AreaLevel prevLevel;
 
     private float spawnTime = 0;
     private float spawnTimer = 10;
@@ -38,8 +39,11 @@ public class AIManager : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < spawnPointParent.childCount; i++)
+        {
             spawnLists.Add(new SpawnList());
+            enemyInstances.Add(new List<GameObject>());
+        }
 
         for (int i = 0; i < spawnPointParent.childCount; i++)
         {
@@ -53,16 +57,20 @@ public class AIManager : MonoBehaviour
 
     private void Update()
     {
-        if (currentEnemiesInArea < maxEnemiesInArea)
+        if (enemyInstances[(int)currentLevel].Count < maxEnemiesInArea)
         {
             spawnTime += Time.deltaTime;
             if (spawnTime > spawnTimer)
             {
                 spawnTime = 0;
                 SpawnEnemy();
-                currentEnemiesInArea++;
             }
         }
+
+        if (prevLevel != currentLevel)
+            ChangeLevel();
+
+        prevLevel = currentLevel;
     }
 
     private void SpawnEnemy()
@@ -72,6 +80,24 @@ public class AIManager : MonoBehaviour
 
         List<SpawnPoint> spawnList = spawnLists[(int)currentLevel].spawnPoints;
         enemy.transform.position = spawnList[Random.Range(0, spawnList.Count)].transform.position;
+
+        enemyInstances[(int)currentLevel].Add(enemy);
+    }
+
+    private void ChangeLevel()
+    {
+        for(int i = 0; i < enemyInstances.Count; i++)
+        {
+            foreach (GameObject instance in enemyInstances[i])
+            {
+                instance.SetActive((int)currentLevel == i ? true : false);
+            }
+        }
+    }
+
+    public void DeleteEnemy(GameObject enemy)
+    {
+        enemyInstances[(int)currentLevel].Remove(enemy);
     }
 
     // Draw info in the scene
@@ -85,6 +111,17 @@ public class AIManager : MonoBehaviour
 
             if (avoidPoints[iPoint].point != null)
                 Gizmos.DrawSphere(avoidPoints[iPoint].GetPos(), avoidPoints[iPoint].radius);
+        }
+
+        for (int iList = 0; iList < spawnLists.Count; iList++)
+        {
+            for (int iPoint = 0; iPoint < spawnLists[iPoint].spawnPoints.Count; iPoint++)
+            {
+                Gizmos.color = new Color(1, 0, 0, 0.3f);
+
+                if (spawnLists[iPoint].spawnPoints[iPoint] != null)
+                    Gizmos.DrawSphere(spawnLists[iPoint].spawnPoints[iPoint].transform.position, 2);
+            }
         }
     }
 }

@@ -103,7 +103,7 @@ public class FlowerTentacle : MonoBehaviour
         renderer.color = Color.red;
         while (renderer.color.r > 0.01f)
         {
-            renderer.color = Color.Lerp(renderer.color, Color.white, Time.deltaTime);
+            renderer.color = Color.Lerp(renderer.color, Color.white, Time.deltaTime * 2);
             yield return null;
         }
     }

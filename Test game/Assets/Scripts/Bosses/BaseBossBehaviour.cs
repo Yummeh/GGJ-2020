@@ -9,44 +9,57 @@ public class BaseBossBehaviour : MonoBehaviour
     [SerializeField] protected GameObject tentacle;
     protected SpriteRenderer renderer;
 
-    protected int mainHealth = 10;
+    [SerializeField] protected float activationRange = 20;
+
+    protected int mainHealth;
+    [SerializeField] protected int defaultHealth = 10;
     protected bool vunerable = false;
 
     protected float attackTime;
-    protected float attackTimer = 3;
+    [SerializeField] protected float attackTimer = 3;
 
     protected float vunerableTime;
-    protected float vunerableTimer = 8;
+    [SerializeField] protected float vunerableTimer = 8;
+
+    [SerializeField] protected GameObject bossItemDrop;
 
     protected virtual void Start()
     {
         animator = GetComponent<Animator>();
         player = FindObjectOfType<PlayerInfo>();
         renderer = GetComponent<SpriteRenderer>();
+
+        mainHealth = defaultHealth;
     }
 
     protected virtual void Update()
     {
-        if (!vunerable)
+        if (Vector3.Distance(transform.position, player.transform.position) < activationRange)
         {
-            attackTime += Time.deltaTime;
-
-            if (attackTime > attackTimer && mainHealth > 0)
+            if (!vunerable)
             {
-                attackTime = 0;
-                SpawnAttack();
+                attackTime += Time.deltaTime;
+
+                if (attackTime > attackTimer && mainHealth > 0)
+                {
+                    attackTime = 0;
+                    SpawnAttack();
+                }
+            }
+            else
+            {
+                vunerableTime += Time.deltaTime;
+
+                if (vunerableTime > vunerableTimer)
+                {
+                    vunerableTime = 0;
+                    SetVunerable(false);
+                }
             }
         }
+        // Dont start battle when player is not close enough
         else
-        {
-            vunerableTime += Time.deltaTime;
-
-            if (vunerableTime > vunerableTimer)
-            {
-                vunerableTime = 0;
-                SetVunerable(false);
-            }
-        }
+            mainHealth = defaultHealth;
     }
 
     protected virtual void SpawnAttack() {}
@@ -88,8 +101,23 @@ public class BaseBossBehaviour : MonoBehaviour
         renderer.color = Color.red;
         while (renderer.color.r > 0.01f)
         {
-            renderer.color = Color.Lerp(renderer.color, Color.white, Time.deltaTime);
+            renderer.color = Color.Lerp(renderer.color, Color.white, Time.deltaTime * 2);
             yield return null;
         }
+    }
+
+    private void SpawnBossDrop()
+    {
+        // Error out
+        if(bossItemDrop == null) { Debug.LogError("Boss item was not given, item wont spawn"); return; }
+            
+        GameObject itemDrop = Instantiate(bossItemDrop);
+        itemDrop.transform.position += Vector3.up;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = new Color(0,0,1,0.2f);
+        Gizmos.DrawSphere(transform.position, activationRange);
     }
 }

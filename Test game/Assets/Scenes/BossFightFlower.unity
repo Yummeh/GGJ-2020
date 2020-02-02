@@ -483,5 +483,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5648651608937324293, guid: 958f5560c0ae6eb42bc89cf8cea7a482,
         type: 3}
+    - target: {fileID: 8851830533016058099, guid: e4f915b74a7614f4898541027a4ee03d,
+        type: 3}
+      propertyPath: activationRange
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851830533016058099, guid: e4f915b74a7614f4898541027a4ee03d,
+        type: 3}
+      propertyPath: defaultHealth
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851830533016058099, guid: e4f915b74a7614f4898541027a4ee03d,
+        type: 3}
+      propertyPath: attackTimer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4f915b74a7614f4898541027a4ee03d, type: 3}
